@@ -1,26 +1,51 @@
-
 *{
-
     margin: 0;
     padding: 0;
-}
+ }
+ header {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: rgba(4, 72, 161, 0.89);
+     border: 6px solid;
+  }
+  .introdução{
+padding: 16px 16px;
 
+  }
+  .lista-item{
+   display: flexbox;
+   margin: 0 16px;
+ }
+ 
+ .escola{
+   color: rgb(0, 0, 0);
+ }
+ 
+ .estudante{
+   color: rgb(0, 0, 0) ;
+ }
+  body{
+     background-image: linear-gradient(rgb(4, 0, 255), rgb(19, 129, 4));
+     }
+  
+     h1 {color: rgb(255, 255, 255);
+       font-size: 40px
+       font-family: 'Tilt Prism', cursive;
+  }
+  
+  P{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+   
+  }
+  .site{
+    color:rgb(0, 0, 0) ;
+ }
+ h2{
+   text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
 
-.cabecalho{
-    background-color: #424E61;
-    color: white;
-    display: flex;
-    justify-content:space-around ;
-    padding: 24px 0;
-}
-
-.cabecalho-imagem{
-
-    width: 15%;
-}
-
-.cabecalho-lista-item{
-    display:inline-block;
-    margin: 0 20px;
-    font-size: 26px;
-}
+  
+  }
